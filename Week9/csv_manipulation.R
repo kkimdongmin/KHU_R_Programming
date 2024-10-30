@@ -16,7 +16,7 @@ seoul.temp <- read.csv('./data/seoul_temp_precip.csv')
 head(seoul.temp)
 
 # Slice August Temperature
-temp_aug <- seoul.temp[seoul.temp$month == 9, c('year', 'temperature')]
+temp_aug <- seoul.temp[seoul.temp$month == 8, c('year', 'temperature')]
 head(temp_aug)
 
 ### Line Graph ###
